@@ -83,3 +83,5 @@ The backend is built with **Node.js** and **Express**, with the following librar
    - Add a `.env` file in the `backend` directory for sensitive configurations such as API keys, database URLs, etc.
    - EMAIL_USER=yourgmail
    -EMAIL_PASS=your_google_android_pass
+5.Contact me for any doubts .
+6.Check live here :https://portfolio-prigeesh-frontend.vercel.app/
