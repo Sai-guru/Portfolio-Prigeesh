@@ -1,0 +1,107 @@
+.education-container {
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 750px;
+    margin: 40px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .education-table,
+  .courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .education-table td,
+  .courses-table td {
+    padding: 12px;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .education-table td {
+    padding-left: 20px;
+  }
+  
+  .label {
+    font-weight: 600;
+    color: #1a237e;
+    font-size: 20px;
+  }
+  
+  .divider {
+    margin: 30px 0;
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+  }
+  
+  .subsection-title {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .courses-table tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .courses-table tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .courses-table td {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .courses-table td::before {
+    content: "• ";
+    color: #3498db;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .education-container h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1a237e;
+    margin-top: 25px;
+  }
+  
+  .education-container table {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .education-container {
+      padding: 20px;
+    }
+  
+    .section-title {
+      font-size: 28px;
+    }
+  
+    .label {
+      font-size: 18px;
+    }
+  
+    .subsection-title {
+      font-size: 20px;
+    }
+  }
+  
