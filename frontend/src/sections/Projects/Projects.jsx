@@ -4,6 +4,9 @@ import MyGithubSearch from '../../assets/MyGithubSearch.png';
 import EComm from '../../assets/myecomm.png';
 import Bulkmail from '../../assets/bulkmail.png';
 import Weather from '../../assets/Weather.png';
+import pokeInfo from '../../assets/pokeInfo.png';
+import todo from '../../assets/todo.png';
+import digiclk from '../../assets/digiclk.png';
 
 import ProjectCard from '../../common/ProjectCard';
 
@@ -33,6 +36,24 @@ function Projects() {
           link="https://prigeesh-weatherweb.netlify.app/"
           h3="Weather Website"
           p="This project is a React-based weather application that allows users to fetch and display real-time weather data for any city using the OpenWeatherMap API."
+        />
+        <ProjectCard
+          src={pokeInfo}
+          link="https://pokeinfoguru.netlify.app/"
+          h3="⚡ PokeInfo"
+          p="PokeInfo is a fun and beginner-friendly web app built with vanilla JavaScript. It uses the modern fetch to retrieve Pokémon data from the public PokéAPI and displays the info."
+        />
+        <ProjectCard
+          src={todo}
+          link="https://to-do-react-omega-ten.vercel.app/"
+          h3="📝Todo-react-App"
+          p="A simple, responsive, and functional Todo app built with React.js. This app allows users to add, mark, and delete tasks efficiently🎉."
+        />
+        <ProjectCard
+          src={digiclk}
+          link="https://effortless-creponne-59c3c2.netlify.app/"
+          h3="Digital Clock"
+          p="A cute & responsive, Digital Time Clock built with Vanilla js.It shows live time."
         />
 
       </div>
