@@ -1,7 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 
 import MyGithubSearch from '../../assets/MyGithubSearch.png';
-import FormData from '../../assets/FormData.png';
+import EComm from '../../assets/myecomm.png';
 import Bulkmail from '../../assets/bulkmail.png';
 import Weather from '../../assets/Weather.png';
 
@@ -13,10 +13,10 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={FormData}
-          link="https://form-data-indol.vercel.app/"
-          h3="Form Data"
-          p= "FormData Web App is a MERN stack application designed to collect and store user information." />
+          src={EComm}
+          link="https://ecommerce-mern-emc-backend.onrender.com/"
+          h3="MERN E-Commerce"
+          p= "Vendico is a full-stack e-commerce solution built using MERN Stack. It provides a complete, scalable, and responsive foundation for an online store featuring." />
         <ProjectCard
           src={MyGithubSearch}
           link="https://sai-guru.github.io/MyGithubSearch/"
