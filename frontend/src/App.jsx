@@ -8,28 +8,31 @@ import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
 import Education from './sections/Education/Education';
 
-function App() {
+
+const App = () => {
   return (
     <>
       <Navbar /> {/* Add the Navbar here */}
       <div id="home">
         <Hero />
       </div>
+
       <div id='about'>
         <About />
-
       </div>
-      
       
       <div id="education">
         <Education />
       </div>
+
       <div id="projects">
         <Projects />
       </div>
+
       <div id="skills">
         <Skills />
       </div>
+      
       <div id="contact">
         <Contact />
       </div>
@@ -37,5 +40,7 @@ function App() {
     </>
   );
 }
+
+
 
 export default App;

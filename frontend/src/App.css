@@ -108,3 +108,18 @@ p {
     }
   }
 }
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--btn-text-color);
+}
+
+/* Show menu icon on mobile */
+@media (max-width: 800px) {
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 90px;
+  }
+}

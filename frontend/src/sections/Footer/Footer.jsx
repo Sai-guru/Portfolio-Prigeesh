@@ -1,6 +1,7 @@
 import styles from './FooterStyles.module.css';
 
-function Footer() {
+
+const Footer = () => {
   return (
     <section id="footer" className={styles.container}>
       <p>
@@ -10,5 +11,6 @@ function Footer() {
     </section>
   );
 }
+
 
 export default Footer;

@@ -10,7 +10,9 @@ import digiclk from '../../assets/digiclk.png';
 
 import ProjectCard from '../../common/ProjectCard';
 
-function Projects() {
+
+
+const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
@@ -60,5 +62,7 @@ function Projects() {
     </section>
   );
 }
+
+
 
 export default Projects;

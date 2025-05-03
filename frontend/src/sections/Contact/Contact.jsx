@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import styles from './ContactStyles.module.css';
 
-function Contact() {
+
+
+const Contact = () => {
   const [status, setStatus] = useState(null); // To show success or error message
 
   const handleSubmit = async (e) => {
@@ -81,5 +83,7 @@ function Contact() {
     </section>
   );
 }
+
+
 
 export default Contact;

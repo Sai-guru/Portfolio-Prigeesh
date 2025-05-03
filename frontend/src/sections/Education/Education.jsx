@@ -1,7 +1,8 @@
 
 import './Education.css';
 
-function Education() {
+
+const Education = () => {
   return (
     <div className="education-container">
       <h2 className="section-title">Education</h2>
@@ -44,5 +45,6 @@ function Education() {
     </div>
   );
 }
+
 
 export default Education;

@@ -4,7 +4,9 @@ import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../common/SkillList';
 import { useTheme } from '../../common/ThemeContext';
 
-function Skills() {
+
+
+const Skills = () => {
   const { theme } = useTheme();
   const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
 
@@ -43,5 +45,6 @@ function Skills() {
     </section>
   );
 }
+
 
 export default Skills;

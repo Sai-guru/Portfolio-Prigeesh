@@ -63,14 +63,29 @@
   /* Media queries for responsiveness */
   @media (max-width: 800px) {
     .navbar-links {
-      gap: 20px; /* Adjusting gap for smaller screens */
-      justify-content: flex-end; /* Center-align links on smaller screens */
+      flex-direction: column; /* Stack links vertically */
+      gap: 10px;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: var(--btn-color);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      display: none; /* Hidden by default */
+    }
+    .navbar-container {
+      justify-content: center; /* Center everything */
     }
     .navbar {
       padding: 10px 20px; /* Reduce padding for small screens */
     }
+    .navbar-links.open {
+      display: flex;
+    }
+  
     .navbar-logo {
-      width: 40px; /* Adjust logo size for mobile */
+      width: 40px;
       height: 40px;
     }
   }

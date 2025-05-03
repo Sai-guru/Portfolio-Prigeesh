@@ -10,7 +10,8 @@ import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { FaInstagram } from 'react-icons/fa';
 
-function Hero() {
+
+const Hero = () => {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
@@ -62,5 +63,6 @@ function Hero() {
     </section>
   );
 }
+
 
 export default Hero;
