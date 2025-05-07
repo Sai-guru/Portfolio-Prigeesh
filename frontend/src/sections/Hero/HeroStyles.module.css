@@ -9,6 +9,14 @@
 
   .hero {
     max-width: 200px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.7);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+  }
+  .hero:hover {
+    transform: scale(1.08);
+    box-shadow: 0 12px 36px rgba(255, 255, 255, 0.6);
+    filter: brightness(1.1) saturate(1.2);
   }
 
   span {
