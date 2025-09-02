@@ -21,6 +21,10 @@ const Education = () => {
             <td className="label">CGPA:</td>
             <td>8.87</td>
           </tr>
+           <tr>
+            <td className="label">Batch:</td>
+            <td>2023 - 2027</td>
+          </tr>
         </tbody>
       </table>
 
@@ -31,13 +35,32 @@ const Education = () => {
       <table className="courses-table">
         <tbody>
           <tr>
-            <td>Web development course program at Rinex</td>
-          </tr>
-          <tr>
             <td>MERN full stack web development course at Error Makes Clever</td>
           </tr>
           <tr>
+            <td>Full Stack Development course at Revamp Academy</td>
+          </tr>
+          <tr>
+            <td>Web development course program at Rinex</td>
+          </tr>
+           <tr>
+            <td>DSA course at NAMASTE DEV</td>
+          </tr>
+          <tr>
             <td>DMO course at Computer Software College</td>
+          </tr>
+          {/* Add more <tr> as needed */}
+        </tbody>
+      </table>
+      <h3 className="subsection-title">Internship</h3>
+
+      <table className="courses-table">
+        <tbody>
+          <tr>
+            <td>Full Stack Developer Intern at Revamp</td>
+          </tr>
+          <tr>
+            <td>Web development Internship at Rinex</td>
           </tr>
           {/* Add more <tr> as needed */}
         </tbody>
