@@ -26,7 +26,7 @@ const Projects = () => {
         />
         <ProjectCard
           src={EComm}
-          link="https://ecommerce-mern-emc-backend.onrender.com/"
+          link="https://ecommerce-mern-emc.onrender.com"
           h3="MERN E-Commerce"
           p= "Vendico is a full-stack e-commerce solution built using MERN Stack. It provides a complete, scalable, and responsive foundation for an online store featuring." />
         <ProjectCard
