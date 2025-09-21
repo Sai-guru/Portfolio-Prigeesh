@@ -52,8 +52,8 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-         I’m a full-stack developer with a strong focus on <strong>TypeScript</strong>. I work across frontend and backend, constantly exploring new tools & it's approaches and particularly interested in improving app performance, scalability, and modern development practices.
-        </p>
+  I’m a full-stack developer with a strong focus on <strong>TypeScript</strong>. I work across frontend and backend, constantly exploring new tools and their approaches and I’m particularly interested in stable and modern development practices.
+</p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
