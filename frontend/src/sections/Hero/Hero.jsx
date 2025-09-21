@@ -52,9 +52,8 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-        MERN Stack Developer | Fresher with expertise in MongoDB, Express.js, React.js, and Node.js, 
-          with TypeScript. Eager to develop scalable web applications and APIs. Passionate about 
-          contributing to the team and learning new technologies.
+         I’m a full-stack developer with a strong focus on <strong>TypeScript</strong>. I work across frontend and backend, constantly exploring new tools and approaches. 
+          I’m particularly interested in improving app performance, scalability, and modern development practices.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
