@@ -6,7 +6,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/ats-guru-main28june2025.pdf.pdf'
+import CV from '../../assets/ats-guru-23-SEP-2025.pdf.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { FaInstagram } from 'react-icons/fa';
 

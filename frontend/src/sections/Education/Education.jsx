@@ -19,7 +19,7 @@ const Education = () => {
           </tr>
           <tr>
             <td className="label">CGPA:</td>
-            <td>8.87</td>
+            <td>8.80</td>
           </tr>
            <tr>
             <td className="label">Batch:</td>
